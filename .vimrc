@@ -726,7 +726,7 @@ vmap <C-c> y:new ~/.vimbuffer<CR>VGp:x<CR> :silent! !cat /home/scott/.vimbuffer 
 set spell!
 colorscheme vividchalk
 nnoremap <silent><F9> :TagbarToggle<CR>
-au Filetype python setl et ts=2 sw=2
+au Filetype python setl et ts=4 sw=4
 
 " place an A marker above your state definition
 " place a W marker where you want your static functions
